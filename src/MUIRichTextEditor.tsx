@@ -80,6 +80,7 @@ export type TDecorator = {
 type TDraftEditorProps = {
     spellCheck?: boolean
     stripPastedStyles?: boolean
+    onBlur?: any
 }
 
 type TKeyCommand = {
